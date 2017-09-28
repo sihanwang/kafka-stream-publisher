@@ -58,3 +58,63 @@ ProducerConfig values:
 
 2017-06-08 17:02:05.545 [WARN][pool-1-thread-1]:
 The configuration partitioner.class = null was supplied but isn't a known config.
+
+2017-06-09 14:45:35.122 [INFO][pool-1-thread-1]:
+ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	acks = 1
+	batch.size = 16384
+	reconnect.backoff.ms = 10
+	bootstrap.servers = [dsj-s6:9092, dsj-s3:9092, dsj-s5:9092, dsj-s4:9092, dsj-s1:9092]
+	receive.buffer.bytes = 32768
+	retry.backoff.ms = 100
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	retries = 0
+	max.request.size = 1048576
+	block.on.buffer.full = true
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	metrics.sample.window.ms = 30000
+	send.buffer.bytes = 131072
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	linger.ms = 0
+	client.id = 
+
+
+2017-06-09 14:45:35.564 [WARN][pool-1-thread-1]:
+The configuration partitioner.class = null was supplied but isn't a known config.
+
+2017-06-09 15:03:02.775 [INFO][pool-1-thread-1]:
+ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	acks = 1
+	batch.size = 16384
+	reconnect.backoff.ms = 10
+	bootstrap.servers = [dsj-s6:9092, dsj-s3:9092, dsj-s5:9092, dsj-s4:9092, dsj-s1:9092]
+	receive.buffer.bytes = 32768
+	retry.backoff.ms = 100
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	retries = 0
+	max.request.size = 1048576
+	block.on.buffer.full = true
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	metrics.sample.window.ms = 30000
+	send.buffer.bytes = 131072
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	linger.ms = 0
+	client.id = 
+
+
+2017-06-09 15:03:03.198 [WARN][pool-1-thread-1]:
+The configuration partitioner.class = null was supplied but isn't a known config.
